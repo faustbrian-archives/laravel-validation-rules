@@ -5,19 +5,19 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Validation Rules.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\ValidationRules\Tests\Unit\Rules;
+namespace Konceiver\ValidationRules\Tests\Unit\Rules;
 
-use KodeKeep\ValidationRules\Rules\HexColor;
-use KodeKeep\ValidationRules\Tests\TestCase;
+use Konceiver\ValidationRules\Rules\HexColor;
+use Konceiver\ValidationRules\Tests\TestCase;
 
 /**
- * @covers \KodeKeep\ValidationRules\Rules\HexColor
+ * @covers \Konceiver\ValidationRules\Rules\HexColor
  */
 class HexColorTest extends TestCase
 {

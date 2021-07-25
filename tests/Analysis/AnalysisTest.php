@@ -5,16 +5,16 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Validation Rules.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\ValidationRules\Tests\Analysis;
+namespace Konceiver\ValidationRules\Tests\Analysis;
 
 use GrahamCampbell\Analyzer\AnalysisTrait;
-use KodeKeep\ValidationRules\Tests\TestCase;
+use Konceiver\ValidationRules\Tests\TestCase;
 
 /**
  * @coversNothing

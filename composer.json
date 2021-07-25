@@ -1,40 +1,41 @@
 {
-    "name": "kodekeep/laravel-validation-rules",
+    "name": "konceiver/laravel-validation-rules",
     "description": "Common validation rules for Laravel",
     "keywords": [
-        "kodekeep",
+        "konceiver",
         "laravel-validation-rules"
     ],
-    "homepage": "https://github.com/kodekeep/laravel-validation-rules",
+    "homepage": "https://github.com/konceiver/laravel-validation-rules",
     "license": "MPL-2.0",
     "authors": [
         {
             "name": "Brian Faust",
-            "email": "brian@kodekeep.com",
-            "homepage": "https://kodekeep.com",
+            "email": "hello@konceiver.dev",
+            "homepage": "https://konceiver.dev",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4",
-        "illuminate/contracts": "^6.0|^7.0",
-        "illuminate/support": "^6.0|^7.0",
-        "mpociot/vat-calculator": "^2.4"
+        "php": "^8.0",
+        "illuminate/contracts": "^8.0",
+        "illuminate/support": "^8.0",
+        "mpociot/vat-calculator": "^2.4",
+        "spatie/laravel-package-tools": "^1.9"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "graham-campbell/analyzer": "^2.4",
-        "orchestra/testbench": "^4.0",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "graham-campbell/analyzer": "^3.0",
+        "orchestra/testbench": "^6.0",
         "phpstan/phpstan": "^0.12.11"
     },
     "autoload": {
         "psr-4": {
-            "KodeKeep\\ValidationRules\\": "src"
+            "Konceiver\\ValidationRules\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KodeKeep\\ValidationRules\\Tests\\": "tests"
+            "Konceiver\\ValidationRules\\Tests\\": "tests"
         }
     },
     "scripts": {
